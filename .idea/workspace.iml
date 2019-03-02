@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/bootstrap-site/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/bootstrap-site/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/first-app/dist" />
       <excludeFolder url="file://$MODULE_DIR$/first-app/tmp" />
     </content>
