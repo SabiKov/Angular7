@@ -1,0 +1,22 @@
+<p>
+  assignement2 works!
+</p>
+  <label for="InputUserName">User name:</label>
+   <input type="username"
+          class="form-control"
+          id="InputUserName"
+          (input)="onUpdateUserName($event)"
+   >
+  <label for="InputUserName1">User name:</label>
+  <input type="username1"
+          class="form-control"
+          id="InputUserName1"
+          [(ngModel)]="userName"
+   >
+  <button
+    class="btn btn-primary"
+  [disabled]="userName.length == 0"
+  (click)="onCreateSubmitEvent()">Submit</button>
+<p [innerText]="allowSubmitForm"></p>
+<p [innerText]="formUserName"></p>
+<p> user name: {{ getUserName() }} </p>
