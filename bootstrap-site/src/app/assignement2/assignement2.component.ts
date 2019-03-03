@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./assignement2.component.css']
 })
 export class Assignement2Component implements OnInit {
-  private userName = '';
-  private allowSubmitForm: boolean;
-  private formUserName;
+  userName = '';
+  allowSubmitForm: boolean;
+  formUserName;
 
   constructor() {
     setTimeout(() => {
@@ -22,7 +22,7 @@ export class Assignement2Component implements OnInit {
 
   setAllowSubmitForm(allowSubmitForm: boolean) {
     console.log('WTF');
-    this.allowSubmitForm = false;
+    this.allowSubmitForm = allowSubmitForm;
   }
 
   ngOnInit() {
@@ -36,9 +36,14 @@ export class Assignement2Component implements OnInit {
   onUpdateUserName(event: any) {
     console.log(this.userName);
     this.userName = ( event.target as HTMLInputElement).value;
-    if (! /\S/.test(this.userName)) {
+/*    if (! /\S/.test(this.userName)) {
       console.log('empty string');
       console.log(this.allowSubmitForm);
+      this.setAllowSubmitForm(false);
+    }*/
+    if (this.userName.length === 0) {
+      this.setAllowSubmitForm(true);
+    } else {
       this.setAllowSubmitForm(false);
     }
   }

@@ -15,7 +15,7 @@
    >
   <button
     class="btn btn-primary"
-  [disabled]="userName.length == 0"
+  [disabled]="allowSubmitForm"
   (click)="onCreateSubmitEvent()">Submit</button>
 <p [innerText]="allowSubmitForm"></p>
 <p [innerText]="formUserName"></p>

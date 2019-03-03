@@ -42,3 +42,7 @@ c
 3bootstrap-site/src/app/success/success.component.ts,b\5\b5326b3457a57af4fba37187d88a8c2171c3868d
 d
 4bootstrap-site/src/app/success/success.component.css,3\b\3b80f18431a4b9289692fdf47c8e0636a453f0d7
+m
+=bootstrap-site/src/app/assignement2/assignement2.component.ts,a\0\a0057f7b1032f4f410d20ce48febc63897cc5cec
+o
+?bootstrap-site/src/app/assignement2/assignement2.component.html,9\c\9c1f48e013df13576f43953e08df07b476b800d1

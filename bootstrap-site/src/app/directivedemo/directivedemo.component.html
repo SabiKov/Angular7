@@ -1,0 +1,26 @@
+<p>
+  directivedemo works!
+</p>
+<label for="InputUserName1">User name:</label>
+<input type="username1"
+       class="form-control"
+       id="InputUserName1"
+       [(ngModel)]="userName"
+>
+<button
+  class="btn btn-primary"
+  [disabled]="allowSubmitForm"
+  (click)="onCreateSubmitEvent()">Submit</button>
+
+<p [innerText]="allowSubmitForm"></p>
+<p [innerText]="getUserName()"></p>
+<p [ngStyle]="{backgroundColor: getColor()}"
+   [ngClass]="{online: userNameStatus === 'empty'}"
+   [innerText]="userNameStatus"></p>
+<p [ngStyle]="{backgroundColor: getColor()}"
+
+>{{ getUserNameStatus() }}</p>
+<p *ngIf="userNameEntered; else noUserName">UserName was entered: {{ userName }}</p>
+<ng-template #noUserName>
+  <p>No user name was entered!</p>
+</ng-template>
