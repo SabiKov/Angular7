@@ -46,3 +46,9 @@ m
 =bootstrap-site/src/app/assignement2/assignement2.component.ts,a\0\a0057f7b1032f4f410d20ce48febc63897cc5cec
 o
 ?bootstrap-site/src/app/assignement2/assignement2.component.html,9\c\9c1f48e013df13576f43953e08df07b476b800d1
+p
+@bootstrap-site/src/app/directivedemo/directivedemo.component.css,8\5\859a362de4137850b129dde7a7259e2ace858d65
+q
+Abootstrap-site/src/app/directivedemo/directivedemo.component.html,7\4\746ecbe08c3df24dbb809df9f9777ec22685186d
+o
+?bootstrap-site/src/app/directivedemo/directivedemo.component.ts,3\3\33ff4cd38bce752cb124ad9c75b6c6e7c5b65291
