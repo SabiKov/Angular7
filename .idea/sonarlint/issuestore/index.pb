@@ -52,3 +52,9 @@ q
 Abootstrap-site/src/app/directivedemo/directivedemo.component.html,7\4\746ecbe08c3df24dbb809df9f9777ec22685186d
 o
 ?bootstrap-site/src/app/directivedemo/directivedemo.component.ts,3\3\33ff4cd38bce752cb124ad9c75b6c6e7c5b65291
+K
+bootstrap-site/package.json,a\a\aa067c4788b39b4b3b5d6620bcdd74be65f12208
+F
+udemy-app/angular.json,6\3\635b457f23f2d633594728289cfc0e7b0f2093ae
+T
+$udemy-app/src/app/app.component.html,2\6\26fea0e96d001ab037ad7ebef4031244287a51c3
