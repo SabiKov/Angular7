@@ -58,3 +58,21 @@ F
 udemy-app/angular.json,6\3\635b457f23f2d633594728289cfc0e7b0f2093ae
 T
 $udemy-app/src/app/app.component.html,2\6\26fea0e96d001ab037ad7ebef4031244287a51c3
+\
+,udemy-app/src/app/header/header.component.ts,b\2\b2c8d0232b0347ff5a4a40ea4ee14fd7ef04deb4
+O
+udemy-app/src/app/app.module.ts,b\d\bd05085f573d2b5a291da2ad723f470e42aed3b8
+]
+-udemy-app/src/app/header/header.component.css,1\4\1489cc106ba6997bb80c73b2e1b8396798ec396d
+`
+0udemy-app/src/app/recipes/recipes.component.html,d\1\d1c31d548673118ec14b66dd18cf0837403cb46c
+p
+@udemy-app/src/app/recipes/recipe-list/recipe-list.component.html,1\4\1475d91818814a98e62feacd63a98b638bce94c9
+l
+<udemy-app/src/app/shopping-list/shopping-list.component.html,7\a\7ae982cd076773e854ae8259eee720bb52fd9494
+^
+.udemy-app/src/app/header/header.component.html,5\5\5566aa25459e53cd197b950fc7f65775adeff87b
+Y
+)udemy-app/src/app/recipes/recipe.model.ts,f\f\ff0f16037864e516a930ed148e76d8aba1d74608
+n
+>udemy-app/src/app/recipes/recipe-list/recipe-list.component.ts,b\0\b0a1191b7174ce21e5c4b4219c99c1142002d8ce
