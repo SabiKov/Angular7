@@ -8,7 +8,11 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
 
-  recepies: Recipe[] = [
+  recipes: Recipe[] = [
+    new Recipe('A test recipe', 'This is a simple test',
+      'https://get.pxhere.com/photo/dish-meal-food-' +
+      'produce-recipe-fish-breakfast-meat-pork-cuisine-steak-pork-' +
+      'chop-power-dishes-grilling-fried-food-604134.jpg'),
     new Recipe('A test recipe', 'This is a simple test',
       'https://get.pxhere.com/photo/dish-meal-food-' +
       'produce-recipe-fish-breakfast-meat-pork-cuisine-steak-pork-' +
