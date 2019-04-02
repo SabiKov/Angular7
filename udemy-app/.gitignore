@@ -20,6 +20,9 @@ speed-measure-plugin.json
 *.launch
 .settings/
 *.sublime-workspace
+/sonarlint/
+/.idea/sonarlint/issuestore/index.pb
+/.idea/workspace.xml
 
 # IDE - VSCode
 .vscode/*

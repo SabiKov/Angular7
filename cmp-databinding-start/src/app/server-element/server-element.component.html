@@ -1,0 +1,20 @@
+<!--<div class="panel panel-primary">
+  <div class="panel-heading">{{ element.name }}</div>
+  <div class="panel-body">
+    <p>
+      <strong *ngIf="element.type === 'server'" style="color: red">{{ element.content }}</strong>
+      <em *ngIf="element.type === 'blueprint'">{{ element.content }}</em>
+    </p>
+  </div>
+</div>-->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">{{ element.name }}</h1>
+    <h1 class="display-4" #heading>{{ name }}</h1>
+    <ng-content></ng-content>
+    <!--<p class="lead">-->
+      <!--<strong *ngIf="element.type === 'server'" style="color: red">{{ element.content }}</strong>-->
+      <!--<em *ngIf="element.type === 'blueprint'">{{ element.content }}</em>-->
+    <!--</p>-->
+  </div>
+</div>
