@@ -3,8 +3,13 @@
     <p>Game Control</p>
     <br>
     <button
-      class="btn btn-primary mx-2">Add Server</button>
+      class="btn btn-success mx-2"
+      (click)="onStartGame()"
+    >Start Game</button>
     <button
-      class="btn btn-primary max-2">Add Server Blueprint</button>
+      class="btn btn-danger max-2"
+      (click)="onPauseGame()"
+    >Pause Game</button>
   </div>
+  <p>{{ counter }}</p>
 </div>

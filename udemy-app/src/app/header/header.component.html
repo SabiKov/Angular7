@@ -13,10 +13,18 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link font-weight-bold" href="#">Recipes</a>
+          <a class="nav-link font-weight-bold"
+             href="#"
+             (click)="onSelect('recipe')"
+          >Recipes
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link font-weight-bold" href="#">Shopping List</a>
+          <a class="nav-link font-weight-bold"
+             href="#"
+             (click)="onSelect('shopping-list')"
+          >Shopping List
+          </a>
         </li>
       </ul>
       <ul class="navbar-nav mr-auto navbar-right my-2 my-md-0 mr-md-3">
